@@ -161,7 +161,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2013 - 2018',
     title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    desc: 'Lorem  dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
   },
 
   {
