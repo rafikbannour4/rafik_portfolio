@@ -26,11 +26,20 @@
     font-size: var(--h1-font-size); 
     line-height: 1.24;
     padding-left: 70px; 
+
 }
 
 .home__title span{
-    color: var(--first-color);
+    color: var(--first-color); 
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i)) ; 
+
 }
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
 
 .home__title::before{
     content: '';
