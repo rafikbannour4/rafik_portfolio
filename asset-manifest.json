@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/rafik_portfolio/static/css/main.2e8db52a.css",
-    "main.js": "/rafik_portfolio/static/js/main.1fae3610.js",
+    "main.js": "/rafik_portfolio/static/js/main.a3f5def6.js",
     "static/media/home2.jpg": "/rafik_portfolio/static/media/home2.7406147e6680381cf503.jpg",
-    "static/media/project-2.jpg": "/rafik_portfolio/static/media/project-2.0dfdb478a2db20f08cf8.jpg",
+    "static/media/project-2.png": "/rafik_portfolio/static/media/project-2.0b94dd1c2f89a56b2bbb.png",
     "static/media/project-5.jpg": "/rafik_portfolio/static/media/project-5.f6885d316197f5d72029.jpg",
     "static/media/project-6.jpg": "/rafik_portfolio/static/media/project-6.f4df07761e8241c83a94.jpg",
     "static/media/project-4.jpeg": "/rafik_portfolio/static/media/project-4.5bc2687cdb426a57c84c.jpeg",
     "static/media/project-3.jpeg": "/rafik_portfolio/static/media/project-3.5ae83458f56a1d1d3163.jpeg",
-    "static/media/project-1.jpeg": "/rafik_portfolio/static/media/project-1.fa7bcd15ca2c6d433163.jpeg",
+    "static/media/project-1.jpg": "/rafik_portfolio/static/media/project-1.00fa3d5ed2e7d2c91245.jpg",
     "static/media/steve-Cv.pdf": "/rafik_portfolio/static/media/steve-Cv.e83747cf513e0b21a7f1.pdf",
     "static/media/close.svg": "/rafik_portfolio/static/media/close.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
     "index.html": "/rafik_portfolio/index.html",
     "main.2e8db52a.css.map": "/rafik_portfolio/static/css/main.2e8db52a.css.map",
-    "main.1fae3610.js.map": "/rafik_portfolio/static/js/main.1fae3610.js.map"
+    "main.a3f5def6.js.map": "/rafik_portfolio/static/js/main.a3f5def6.js.map"
   },
   "entrypoints": [
     "static/css/main.2e8db52a.css",
-    "static/js/main.1fae3610.js"
+    "static/js/main.a3f5def6.js"
   ]
 }
