@@ -11,8 +11,8 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.jpg';
 import Work2 from './assets/project-2.png';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
+import Work3 from './assets/projet-3.jpg';
+import Work4 from './assets/project-4.jpg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
 
@@ -255,12 +255,12 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Fly Delivery',
+    title: 'Fly Delivery Backoffice',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Fly Delivery',
+        desc: 'Website ',
       },
       {
         icon: <FiUser />,
@@ -270,7 +270,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Node js, React js and Flutter',
+        desc: 'Node js, React js ',
       },
       {
         icon: <FiExternalLink />,
@@ -311,27 +311,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'UVCT',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'It Next Solutions',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React js',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'local',
       },
     ],
   },
@@ -339,27 +339,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Sfar Location',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Internal Project',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Full stack Symfony',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'local',
       },
     ],
   },
@@ -367,54 +367,54 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: ' Fly Delivery 3 apps',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'backend of 3 applications',
       },
       {
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'It Next Solutions',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'Node JS',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'soon...',
       },
     ],
   },
 
-  {
-    id: 6,
-    img: Work6,
-    title: 'Photo Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   img: Work6,
+  //   title: 'Photo Editing',
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: 'Project : ',
+  //       desc: 'Photo',
+  //     },
+  //     {
+  //       icon: <FiUser />,
+  //       title: 'Client : ',
+  //       desc: 'Dribble',
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: 'Language : ',
+  //       desc: 'Adobe Photoshop',
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: 'Preview : ',
+  //       desc: 'www.dibble.com',
+  //     },
+  //   ],
+  // },
 ];
 
 export const themes = [
