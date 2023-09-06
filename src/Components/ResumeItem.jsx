@@ -7,7 +7,7 @@ const ResumeItem = ({title,year,icon,desc}) => {
       <div className="resume__icon">{icon}</div>
       <span className='resume__date'>{year}</span>
       <h3 className='resume__subtitle'>{HTMLReactParser(title)}</h3>
-      <p className='resume__description'>{desc}</p>
+      <p className='resume__description'>{HTMLReactParser(desc)}</p>
     </div>
   )
 }

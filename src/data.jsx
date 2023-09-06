@@ -9,8 +9,8 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
+import Work1 from './assets/project-1.jpg';
+import Work2 from './assets/project-2.png';
 import Work3 from './assets/project-3.jpeg';
 import Work4 from './assets/project-4.jpeg';
 import Work5 from './assets/project-5.jpg';
@@ -91,7 +91,7 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Mahdia Hiboune 5111',
+    description: '5111 Mahdia, Tunisia',
   },
 
   {
@@ -128,7 +128,7 @@ export const stats = [
 
   {
     id: 2,
-    no: '6+',
+    no: '9+',
     title: 'Completed <br /> Projects',
   },
 
@@ -150,18 +150,18 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2019 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2022 - PRESENT',
+    title: 'Web Developer <span>  IT NEXT SOLUTIONS </span>',
+    desc: "As part of a team composed of a web project manager and developers, I have undertaken numerous missions on client projects: <br />  . Maintenance of an e-learning platform developed in MERN Stack.<br />  . Maintenance of the front-end part of an e-commerce web application using React.js. <br /> . Design and complete development of an online chat web application, offering real-time messaging and instant communication features. <br /> . Design and development of the backend for three mobile delivery applications (FlyDelivery) using Node.js, as well as the creation of the back office using React JS and Node.js.",
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem  dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2022',
+    title: " Final Internship <span> WIMOBI </span>",
+    desc: "Design and development of an e-learning platform. <br /><strong> Keywords: StarUML, Symfony 5, API Platform, HTML, CSS, SCSS, Bootstrap, React.js.</strong>",
   },
 
   {
@@ -169,43 +169,38 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    title: 'Advanced Internship <span> LAB IT </span>',
+    desc: "Web Application for IT Equipment Management. <br /> Keywords : StarUml , Symfony4 , HTML , CSS , SCSS , Bootsrap . ",
   },
+
+
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2022 - PRESENT',
+    title: 'Master Degree <span> Faculty of Sciences, Monastir, Tunisia </span>',
+    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
+    year: '2018 - 2022',
+    title: "Applied Bachelor's Degree in Information Technology, specializing in Web and Multimedia Development. <span> Higher Institute of Technological Studies, Mahdia, Tunisia </span>",
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
-  },
+  }, 
+
+  
 ];
 
 export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '99',
   },
 
   {
@@ -216,38 +211,43 @@ export const skills = [
 
   {
     id: 3,
-    title: 'Css',
+    title: 'Css & scss',
     percentage: '70',
   },
 
   {
     id: 4,
     title: 'Php',
-    percentage: '66',
+    percentage: '70',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'React',
+    percentage: '70',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'Node js',
+    percentage: '80',
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'Symfony',
+    percentage: '70',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'MySQL',
+    percentage: '60',
+  },
+  {
+    id: 9,
+    title: 'MongoDB',
+    percentage: '60',
   },
 ];
 
@@ -255,27 +255,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Fly Delivery',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Fly Delivery',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'It Next Solutions',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Node js, React js and Flutter',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'http://fly.sonix.tn:3000/',
       },
     ],
   },
@@ -283,7 +283,7 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Power Online Learning',
     details: [
       {
         icon: <FiFileText />,
@@ -293,17 +293,17 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Wimobi',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'React JS , Symfony',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'http://localhost:3001/',
       },
     ],
   },

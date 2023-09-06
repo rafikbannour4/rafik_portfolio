@@ -7,6 +7,7 @@ import "./About.css";
 import Skills from "../../Components/Skills";
 import { resume } from "../../data";
 import ResumeItem from "../../Components/ResumeItem";
+import HTMLReactParser from 'html-react-parser'
 
 const About = () => {
   const [animate, setAnimate] = useState(false);
