@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Contact.css";
 import {
   FaEnvelopeOpen,
@@ -9,8 +9,58 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
+import axios from "axios";
 import './Contact.css' ; 
-const Contact = () => {
+import { Button, message, Space } from 'antd';
+
+const Contact = () => { 
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [messagee, setMessage] = useState("");
+  
+  
+  const [messageApi, contextHolder] = message.useMessage();
+ 
+ 
+  const success = () => {
+    messageApi.open({
+      type: 'success',
+      content: 'This is a success message',
+    });
+  };
+  
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      // Create a data object with the form field values
+      const data = {
+        sender: email,
+        message : messagee,
+        name,
+        subject,
+      };
+
+      // Make a POST request to your API
+      const response = await axios.post("http://fly.sonix.tn:5000/admin/email_portfolio", data);
+
+      // Handle the response as needed (e.g., show a success message)
+      console.log("Email sent successfully!", response);
+
+      // Clear the form fields
+      setName("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
+      message.success("Email Sent Successfully!", 5);
+    } catch (error) {
+      // Handle any errors (e.g., show an error message)
+      console.error("Error sending email:", error);
+    }
+  };
+
+
   return (
     <section className="contact section">
       <h2 className="section__title">
@@ -70,47 +120,57 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="contact__form">
+        <form className="contact__form" onSubmit={handleSubmit}>
           <div className="form__input-group">
             <div className="form__input-div">
-              <input
-                type="text"
-                className="form__control"
-                placeholder="Your Name"
-              />
+            <input
+              type="text"
+              className="form__control"
+              placeholder="Your Name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
             </div>
 
             <div className="form__input-div">
-              <input
-                type="email"
-                className="form__control"
-                placeholder="Your Email"
-              />
+            <input
+              type="email"
+              className="form__control"
+              placeholder="Your Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
             </div>
 
             <div className="form__input-div">
-              <input
-                type="text"
-                className="form__control"
-                placeholder="Your Subject"
-              />
+            <input
+              type="text"
+              className="form__control"
+              placeholder="Your Subject"
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
+            />
             </div>
           </div>
 
           <div className="form__input-div">
-            <textarea
-              placeholder="Your Message"
-              className="form__control textarea"
-            ></textarea>
+          <textarea
+            placeholder="Your Message"
+            className="form__control textarea"
+            value={messagee}
+            onChange={(e) => setMessage(e.target.value)}
+          ></textarea>
           </div>
-          <butto className="button">
+          <button className="button" > 
              Send Message
              <span className="button__icon contact__button_icon">
               <FiSend/>
              </span>
-          </butto>
+          </button>
         </form>
       </div>
+      { contextHolder}
+
     </section>
   );
 };
