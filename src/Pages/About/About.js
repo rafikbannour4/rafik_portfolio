@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Info from "../../Components/Info";
 import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/steve-Cv.pdf";
+import CV from "../../assets/Rafik_bannour_cv.pdf";
 import Stats from "../../Components/Stats";
 import "./About.css";
 import Skills from "../../Components/Skills";

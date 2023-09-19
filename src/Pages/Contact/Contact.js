@@ -36,18 +36,18 @@ const Contact = () => {
 
     try {
       // Create a data object with the form field values
-      // const data = {
-      //   sender: email,
-      //   message : messagee,
-      //   name,
-      //   subject,
-      // };
+      const data = {
+        sender: email,
+        message : messagee,
+        name,
+        subject,
+      };
 
-      // // Make a POST request to your API
-      // const response = await axios.post("http://fly.sonix.tn:5000/admin/email_portfolio", data);
+      // Make a POST request to your API
+      const response = await axios.post("https://api.flydelivery.tn/admin/email_portfolio", data);
 
       // // Handle the response as needed (e.g., show a success message)
-      // console.log("Email sent successfully!", response);
+      console.log("Email sent successfully!", response);
 
       // Clear the form fields
       setName("");
