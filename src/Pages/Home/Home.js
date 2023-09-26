@@ -12,14 +12,14 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title"> 
-            <span>  I'm Rafik Bannour. Web Developer  </span>    
+            <span>  I'm Rafik Bannour. </span>    
           </h1>
-          <p className="home__description">
+          {/* <p className="home__description">
             Hi there! I'm Rafik Bannour, a seasoned full-stack developer with a
             passion for crafting comprehensive web solutions from concept to
             deployment. With a strong foundation in both front-end and back-end . 
 
-          </p>
+          </p> */}
           <Link to='/about' className="button">
             More About Me{' '}
             <span className="button__icon">
