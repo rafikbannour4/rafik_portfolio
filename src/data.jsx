@@ -277,6 +277,11 @@ export const skills = [
     title: 'XRay',
     percentage: '40',
   },
+  {
+    id: 13,
+    title: 'Cucumber',
+    percentage: '40',
+  },
 ];
 
 export const portfolio = [
