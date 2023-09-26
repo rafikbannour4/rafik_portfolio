@@ -150,7 +150,15 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2022 - PRESENT',
+    year: '2023',
+    title: 'Internship in Test Automation <span>  Access Sap Paris (Remote) </span>',
+    desc: "Automating tests for the member portal of the 'Sap Access' project.",
+  },
+  {
+    id: 1,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '2022 - 2023',
     title: 'Web Developer <span>  IT NEXT SOLUTIONS </span>',
     desc: "As part of a team composed of a web project manager and developers, I have undertaken numerous missions on client projects: <br />  . Maintenance of an e-learning platform developed in MERN Stack.<br />  . Maintenance of the front-end part of an e-commerce web application using React.js. <br /> . Design and complete development of an online chat web application, offering real-time messaging and instant communication features. <br /> . Design and development of the backend for three mobile delivery applications (FlyDelivery) using Node.js, as well as the creation of the back office using React JS and Node.js.",
   },
@@ -168,7 +176,7 @@ export const resume = [
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
+    year: '2021',
     title: 'Advanced Internship <span> LAB IT </span>',
     desc: "Web Application for IT Equipment Management. <br /> Keywords : StarUml , Symfony4 , HTML , CSS , SCSS , Bootsrap . ",
   },
@@ -248,6 +256,26 @@ export const skills = [
     id: 9,
     title: 'MongoDB',
     percentage: '60',
+  },
+  {
+    id: 10,
+    title: 'Cypress',
+    percentage: '50',
+  },
+  {
+    id: 11,
+    title: 'Postman',
+    percentage: '90',
+  },
+  {
+    id: 12,
+    title: 'Jira',
+    percentage: '70',
+  },
+  {
+    id: 12,
+    title: 'XRay',
+    percentage: '40',
   },
 ];
 

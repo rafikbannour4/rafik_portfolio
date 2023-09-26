@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../../assets/home2.jpg";
+import Profile from "../../assets/homeee.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import './Home.css' ; 
