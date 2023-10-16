@@ -308,7 +308,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'http://fly.sonix.tn:3000/',
+        desc: 'https://bo.flydelivery.tn/',
       },
     ],
   },
