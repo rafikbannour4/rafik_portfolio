@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rafik_portfolio/static/css/main.1b09f8c8.css",
-    "main.js": "/rafik_portfolio/static/js/main.d60cbbaa.js",
+    "main.js": "/rafik_portfolio/static/js/main.6615757e.js",
     "static/media/project-2.png": "/rafik_portfolio/static/media/project-2.0b94dd1c2f89a56b2bbb.png",
     "static/media/Rafik-bannour.pdf": "/rafik_portfolio/static/media/Rafik-bannour.e252816def61a7951740.pdf",
     "static/media/projet-3.jpg": "/rafik_portfolio/static/media/projet-3.f63f17c572f25b3a6923.jpg",
@@ -13,10 +13,10 @@
     "static/media/close.svg": "/rafik_portfolio/static/media/close.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
     "index.html": "/rafik_portfolio/index.html",
     "main.1b09f8c8.css.map": "/rafik_portfolio/static/css/main.1b09f8c8.css.map",
-    "main.d60cbbaa.js.map": "/rafik_portfolio/static/js/main.d60cbbaa.js.map"
+    "main.6615757e.js.map": "/rafik_portfolio/static/js/main.6615757e.js.map"
   },
   "entrypoints": [
     "static/css/main.1b09f8c8.css",
-    "static/js/main.d60cbbaa.js"
+    "static/js/main.6615757e.js"
   ]
 }
